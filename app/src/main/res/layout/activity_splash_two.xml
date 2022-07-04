@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    android:padding="14dp"
+    tools:context=".SplashTwoActivity">
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/splash_plant2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_lgs"/>
+
+    <TextView
+        android:id="@+id/watering2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_below="@+id/splash_plant2"
+        android:layout_marginTop="10dp"
+        android:text="@string/get_info"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#ffff"/>
+
+    <TextView
+        android:id="@+id/get_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_below="@+id/watering2"
+        android:layout_marginTop="15dp"
+        android:text="@string/get_desc"
+        android:textSize="16sp"
+        android:textColor="#ffff"/>
+
+    <TextView
+        android:id="@+id/get_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_below="@+id/get_text"
+        android:text="@string/get_text1"
+        android:textSize="16sp"
+        android:textColor="#ffff"/>
+
+    <TextView
+        android:id="@+id/splash_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_below="@+id/get_text2"
+        android:text="@string/get_text2"
+        android:textSize="16sp"
+        android:textColor="#ffff"/>
+
+    <ImageView
+        android:id="@+id/ic_first_splash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/splash_text3"
+        android:src="@drawable/second_splash"/>
+
+    <Button
+        android:id="@+id/btn_next2"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/ic_first_splash"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bg_button"
+        android:text="@string/btn_next2"
+        android:textColor="#034001"/>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "772439197061",
+    "project_id": "vigorous-9684d",
+    "storage_bucket": "vigorous-9684d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772439197061:android:0bbb0c2af837d241cff0ec",
+        "android_client_info": {
+          "package_name": "com.example.vigorous"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772439197061-qn3hkarhk5kaekfelhq2ijjsj6v858o9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq_CRSllN5DHOCx7FHPyozh-qjjKEXriM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772439197061-qn3hkarhk5kaekfelhq2ijjsj6v858o9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

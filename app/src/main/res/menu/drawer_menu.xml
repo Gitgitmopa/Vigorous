@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/Log"
+            android:title="@string/activity_log"
+            android:icon="@drawable/ic_baseline_assignment"/>
+
+        <item android:id="@+id/Instruction"
+            android:title="@string/instruction"
+            android:icon="@drawable/ic_instruction"/>
+
+        <item android:id="@+id/About"
+            android:title="@string/about"
+            android:icon="@drawable/ic_about"/>
+
+        <item android:id="@+id/Logout"
+            android:title="@string/logout"
+            android:icon="@drawable/ic_login"/>
+
+
+    </group>
+
+</menu>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    android:padding="14dp"
+    tools:context=".SplashActivity">
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:id="@+id/splash_plant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/watering_worry"
+        android:contentDescription="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/watering1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_below="@+id/splash_plant"
+        android:layout_marginTop="10dp"
+        android:text="@string/watering1"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#ffff"/>
+
+    <TextView
+        android:id="@+id/splash_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_below="@+id/watering1"
+        android:layout_marginTop="15dp"
+        android:text="@string/watering_decs"
+        android:textSize="16sp"
+        android:textColor="#ffff"/>
+
+    <TextView
+        android:id="@+id/splash_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_below="@+id/splash_text"
+        android:text="@string/splash_text1"
+        android:textSize="16sp"
+        android:textColor="#ffff"/>
+
+    <TextView
+        android:id="@+id/splash_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_below="@+id/splash_text2"
+        android:text="@string/splash_text2"
+        android:textSize="16sp"
+        android:textColor="#ffff"/>
+
+    <ImageView
+        android:id="@+id/ic_first_splash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/first_splash"
+        android:layout_below="@+id/splash_text3" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/ic_first_splash"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bg_button"
+        android:text="@string/btn_next"
+        android:textColor="#034001"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

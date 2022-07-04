@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    android:padding="14dp"
+    tools:context=".SignAndRegActivity">
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/login_pic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/get_started"
+            android:contentDescription="@string/app_name"/>
+
+        <ImageView
+            android:layout_below="@+id/login_pic"
+            android:layout_width="match_parent"
+            android:layout_height="370dp"
+            android:src="@drawable/lupa"
+            android:layout_marginEnd="45dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="485dp">
+
+            <Button
+                android:id="@+id/Login"
+                android:layout_width="360dp"
+                android:layout_height="55dp"
+                android:background="@drawable/bg_button"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="45dp"
+                android:text="Login Now"
+                android:textColor="@color/icon"/>
+
+            <Button
+                android:id="@+id/Register"
+                android:layout_below="@+id/Login"
+                android:layout_width="360dp"
+                android:layout_height="55dp"
+                android:background="@drawable/bg_button"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="25dp"
+                android:text="Register Now"
+                android:textColor="@color/icon"/>
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

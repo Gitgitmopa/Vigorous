@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Vigorous</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //Watering
+    <string name="watering1">Watering without worry</string>
+    <string name="watering_decs">Now you can set your schedule for watering your
+    plants properly. You can exchange what ever day
+    you want to automatically water your plant.</string>
+    <string name="splash_text1"></string>
+    <string name="splash_text2"></string>
+    <string name="btn_next">Next</string>
+    <string name="todo">TODO</string>
+
+    //Get Info
+    <string name="get_info">Get information about your plants</string>
+    <string name="get_desc">You can monitor the soil moisture level
+    of your soil to avoid harm to your plant and
+    get information when to water your plant.</string>
+    <string name="get_text1"></string>
+    <string name="get_text2"></string>
+    <string name="btn_next2">Lets Get Started</string>
+
+    //Let's get started
+    <string name="lets_get">Lets Get Started</string>
+    <string name="lets_get2"></string>
+
+    //Login
+    <string name="user_phone">Username/Phone</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="btn_login">Login</string>
+    <string name="don_t_have">Dont have an account?</string>
+    <string name="register">Register now</string>
+
+
+    //Forgot Password
+    <string name="text_phone">Phone</string>
+    <string name="next">Next</string>
+    <string name="cancel">Cancel</string>
+    <string name="registered">Register now</string>
+    //Send Temporary pass
+    <string name="login_temp">Login now</string>
+
+
+    //Registered
+    <string name="register2">Register</string>
+    <string name="Re_Already">Already have an account?</string>
+    <string name="login_reg">Login now</string>
+    <string name="user">Username</string>
+    <string name="phone">Phone</string>
+    <string name="name">Full Name</string>
+    <string name="reg_next">Next</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="logout"><b>LOGOUT</b></string>
+    <string name="activity_log"><b>ACTIVITY LOG</b></string>
+    <string name="about"><b>ABOUT</b></string>
+    <string name="instruction"><b>INSTRUCTION</b></string>
+</resources>
